@@ -18,7 +18,7 @@ public class TypeCasting {
 	        System.out.println("\n");
 	        System.out.println("Explicit Type Casting");
 	        //explicit conversion
-	        double x=35.5;
+	        double x=50.6;
 	        int y=(int)x;
 	        System.out.println("Value of x: "+x);
 	        System.out.println("Value of y: "+y);
