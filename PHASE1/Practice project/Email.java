@@ -20,12 +20,12 @@ public class Email {
 	   public static void main(String[] args) {
 	       List<String> emails = new ArrayList<String>();
 	       // valid email addresses
-	       emails.add("Pradeep@example.com");
-	       emails.add("Reshmitha@example.com");
-	       emails.add("Minie@example.me.org");
-	       emails.add("Pradeepa.example.com");
-	       emails.add("Hari.bob@example.com");
-	       emails.add("Pradheep@.example.com");
+	       emails.add("jayanth@example.com");
+	       emails.add("abhi@example.com");
+	       emails.add("Dhoni@example.me.org");
+	       emails.add("kiran.example.com");
+	       emails.add("tanuj@example.com");
+	       emails.add("chandu@.example.com");
 
 	       for (String value : emails) {
 	           System.out.println("The Email address " + value + " is " + (isValidEmail(value) ? "valid" : "invalid"));
